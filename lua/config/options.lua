@@ -5,4 +5,7 @@
 
 local options = vim.o
 
-options.relativenumber = true
+options.relativenumber = false
+
+options.shiftwidth = 4
+options.tabstop = 4
