@@ -1,44 +1,39 @@
 # SOS-vim
 
-Uma config pessoal para clonar e usar em qualquer computador.
+Neovim survival kit.
+## About
 
-## Sobre
-
-Este repositório contém minha configuração pessoal do Neovim, feita em Lua, pronta para ser clonada e usada rapidamente em qualquer ambiente linux.
-
+A neovim on steroids, ready to use. This repository is based on the configuration used in the *Arch Linux* ([Omarchy](https://github.com/basecamp/omarchy))
 
 
-## Tutorial Básico de Instalação (Linux)
+### Requirements
 
-### Requisitos
-
-- Neovim instalado ([veja como instalar aqui](https://github.com/neovim/neovim/blob/master/INSTALL.md))
+- Neovim > 0.11 ([see how to install it here.](https://github.com/neovim/neovim/blob/master/INSTALL.md))
 - `git` instalado
 
-### Passo a passo
+### Install
 
-1. **Clone este repositório**
+1. **Clone this repository**
 
-   Abra o terminal e execute:
+   open the terminal and run:
 
    ```bash
    git clone https://github.com/CeleronD256ram/SOS-vim.git
    ```
 
-2. **Copie/Movimente os arquivos para a pasta de configuração do Neovim**
+2. **Copy/Move the files to the Neovim configuration folder.**
 
    ```bash
    mkdir -p ~/.config/nvim
    cp -r SOS-vim/* ~/.config/nvim/
    ```
 
-   > Se já existir uma configuração, você pode fazer backup antes:
-
+   > *If* a configuration already exists, you can back it up first:
    ```bash
    mv ~/.config/nvim ~/.config/nvim-backup
    ```
 
-3. ** Abra o neovim:**
+3. **open neovim:**
 
    ```bash
    nvim
@@ -46,9 +41,7 @@ Este repositório contém minha configuração pessoal do Neovim, feita em Lua, 
 
 ---
 
-## Observações
 
-Após abrir o neovim o gerenciador de pacotes **[lazyvim](https://www.lazyvim.org/)** vai instalar os pacotes automaticamente =)
-
+After opening Neovim, the package manager **[lazyvim](https://www.lazyvim.org/)** It will install the packages automatically =)
 ---
 
